@@ -1,0 +1,11 @@
+# Things to ignore
+
+config/config.local.php
+logs/
+twigcache/
+.sass-cache
+*.pdf
+
+# Misc
+*.xml
+templates/test*
