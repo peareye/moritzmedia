@@ -203,11 +203,6 @@ hr {
   margin: 1.5em 0; }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  height: 100vh;
   display: flex;
   flex-flow: column nowrap;
   font-family: 'Montserrat', sans-serif; }
@@ -215,7 +210,6 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  background: #efefef;
   height: 50vh; }
 
 img {
@@ -230,13 +224,18 @@ img {
 h1 {
   font-size: 4rem;
   text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+h2 {
+  font-size: 3rem;
   font-weight: 700; }
 
 .logo-left {
   padding: 2rem; }
 
 .logo-right {
-  background: #333;
+  background: #336699;
   color: #fff;
   padding: 2rem; }
 
