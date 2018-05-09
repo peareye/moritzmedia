@@ -203,6 +203,7 @@ hr {
   margin: 1.5em 0; }
 
 body {
+  height: 100vh;
   display: flex;
   flex-flow: column nowrap;
   font-family: 'Montserrat', sans-serif; }
@@ -225,7 +226,7 @@ h1 {
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
 
 h2 {
   font-size: 3rem;
